@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pin"
+        android:title="Pin/TirarPin"/>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_cor1"
+            android:icon="@drawable/ic_azul"
+            android:title="Azul" />
+
+        <item
+            android:id="@+id/menu_cor2"
+            android:icon="@drawable/ic_amarelo"
+            android:title="Amarelo" />
+
+        <item
+            android:id="@+id/menu_cor3"
+            android:icon="@drawable/ic_verde"
+            android:title="Verde" />
+
+        <item
+            android:id="@+id/menu_cor4"
+            android:icon="@drawable/ic_laranja"
+            android:title="Laranja" />
+
+        <item
+            android:id="@+id/menu_cor5"
+            android:icon="@drawable/ic_roxo"
+            android:title="Roxo" />
+
+    </group>
+
+    <item
+        android:id="@+id/delete"
+        android:title="Delete"/>
+
+</menu>
